@@ -1,0 +1,52 @@
+header{
+  background-color: rgb(43, 129, 168);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+  text-align: left;
+}
+
+.container img {
+  width: 280px;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(123, 185, 214);
+  padding: 30px;
+  gap: 23px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.container > div {
+  padding: 10px ;
+  background-color: rgb(206, 217, 228);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: rgb(123, 185, 214);
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+
+footer{
+  background-color: rgb(43, 129, 168);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
